@@ -1,0 +1,105 @@
+Package: cinnamon-applet-actioncenter
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Winux7 Dev Team <dev@winux7.org>
+Installed-Size: 15
+Depends: cinnamon-common (>= 5.0), gufw, gnome-system-monitor, cinnamon-control-center
+Filename: ./cinnamon-applet-actioncenter_0.1.0-1_all.deb
+Size: 2468
+MD5sum: ec4c94e313c3a1b3036c3167d36d0568
+SHA1: 0d793632378f40e2e338db065f737c3611156508
+SHA256: e052ed87298c58548190a26f4604abce0ed3723985042b2a21683515250bf8bf
+Section: cinnamon
+Priority: optional
+Description: Winux7 Action Center Applet
+ A Cinnamon applet that provides a Windows 7-style Action Center
+ with quick shortcuts to system utilities.
+
+Package: nemo-extension-libraries
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Winux7 Dev Team <dev@winux7.org>
+Installed-Size: 22
+Depends: nemo (>= 5.0), python3-nemo, python3-gi, zenity, libglib2.0-bin
+Filename: ./nemo-extension-libraries_0.1.0-1_all.deb
+Size: 3790
+MD5sum: bcdbd6cedbef9e41a0035e5b5f01dbce
+SHA1: c77e0da796b5b4946c8a2493e7c6961936654389
+SHA256: 6e522f6a3b873aaac1f6d25223fbc128beaf4d190792716ec96750022280838e
+Section: nemo
+Priority: optional
+Description: Winux7 Libraries feature for Nemo
+ Implements a Windows 7-style "Libraries" feature.
+ Right-click folders to add them to a library, and access
+ all library folders from a "Winux Libraries" bookmark.
+
+Package: winux-compat-manager
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Winux7 Dev Team <dev@winux7.org>
+Installed-Size: 12
+Depends: wine, nemo, zenity, gnome-terminal
+Filename: ./winux-compat-manager_0.1.0-1_all.deb
+Size: 2234
+MD5sum: d255fed0971aefe2b6add06fe939ccfd
+SHA1: 97f870a4348a3ed6343c2e2531fbb111be6355d6
+SHA256: 46cc59ea3e2e7388488afc00f8eb8d4ffc84234b303617582c0f6a880cca2f72
+Section: utils
+Priority: optional
+Description: Winux7 Compatibility Manager
+ Provides a simple "Run with Winux" context menu item for .exe files.
+ Each application is run in its own isolated WINE prefix, managed
+ automatically in ~/.winux/apps/
+
+Package: winux-ppa-keyring
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Winux7 PPA <mosierty@gmail.com>
+Installed-Size: 17
+Depends: apt-transport-https, ca-certificates, curl
+Filename: ./winux-ppa-keyring_1.0.0-1_all.deb
+Size: 3786
+MD5sum: 6f21d8873c27726b7bdb9fbcb18a0d02
+SHA1: 1d644a5c80893b42f520fd752ea43a11a1b476a1
+SHA256: 75790060f652db50070c5e4cfa1a1c4e359589e8fd3bdb151bb87b679c3e1b95
+Section: misc
+Priority: optional
+Description: Winux7 PPA Keyring and Repository
+ This package adds the official Winux7 PPA to your system.
+ It allows you to receive updates automatically through
+ the standard Mint Update Manager.
+
+Package: winux-system-properties
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Winux7 Dev Team <dev@winux7.org>
+Installed-Size: 27
+Depends: python3-gi, python3-psutil, gir1.2-gtk-3.0, nemo, libglib2.0-bin
+Filename: ./winux-system-properties_0.1.0-1_all.deb
+Size: 3770
+MD5sum: 5d1fa8450f438965cadb5f92582fdef5
+SHA1: 77e7d83e105d158ea1f02878acccf68e71764c85
+SHA256: 74986c0cc1c654ad9f01d9f5139ad234f591ed0fb75714dbdb208e2f04a80449
+Section: utils
+Priority: optional
+Description: Winux7 System Properties
+ Provides a Windows 7-style "System Properties" window.
+ Adds a "Properties" context menu item to the "Computer" icon in Nemo.
+
+Package: winux-update-manager
+Version: 0.2.3-1
+Architecture: all
+Maintainer: Winux7 Dev Team <dev@winux7.org>
+Installed-Size: 15
+Depends: curl, jq, zenity, policykit-1
+Filename: ./winux-update-manager_0.2.3-1_all.deb
+Size: 3236
+MD5sum: 7f7408ca39451c40c5a730b063eacc88
+SHA1: c69c04272ca49a41f066f07ed252f5f5ce87774e
+SHA256: 249ce451b08e69c7f485dae3ad6edbcb6c28194a6e979e57ba545ec9e77a468d
+Section: utils
+Priority: optional
+Description: Winux7 Update Manager
+ Provides a simple "Check for Updates" tool that downloads
+ and installs the latest packages from the Winux7 GitHub.
+
